@@ -11,17 +11,33 @@ body {
   align-items: center;
   font-family: Arial, sans-serif;
   background-color: #f8f9fa;
-}
-
-ul {
-  list-style: none;
-  text-align: center;
-}
-
-li {
-  font-size: 3rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 1.6;
   color: #212529;
+}
+
+.under-construction {
+  max-width: 640px;
+  padding: 2rem 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.under-construction h1 {
+  font-size: 3rem;
+}
+
+.under-construction .description {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.under-construction .total {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.under-construction a {
+  color: #0969da;
+  font-weight: bold;
 }
